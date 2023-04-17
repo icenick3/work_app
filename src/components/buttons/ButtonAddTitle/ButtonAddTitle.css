@@ -1,0 +1,14 @@
+.addTitle {
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  font-family: Roboto;
+  font-size: 20px;
+  margin: 0 auto 10px auto;
+  background: #FFE66D;
+}
+.addTitle:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=ButtonAddTitle.css.map */

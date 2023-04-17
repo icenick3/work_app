@@ -1,0 +1,55 @@
+.ChatTitle {
+  width: 100%;
+  background: #4ecdc4;
+  border-radius: 10px;
+  padding: 20px;
+  justify-content: center;
+  font-size: 20px;
+  margin: 10px;
+  display: flex;
+}
+.ChatTitle:hover {
+  cursor: pointer;
+  box-shadow: 0 0 8px 10px rgba(41, 80, 34, 0.6);
+}
+
+.chatsPd {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.selectedBlock {
+  box-shadow: 0 0 8px 10px rgba(41, 80, 34, 0.6);
+  width: 100%;
+  background: #1A535C;
+  border-radius: 10px;
+  padding: 20px;
+  justify-content: center;
+  font-size: 20px;
+  margin: 10px;
+  display: flex;
+}
+.selectedBlock:hover {
+  cursor: pointer;
+}
+
+.chatsTitles {
+  width: fit-content;
+}
+
+.ChatTitleContainer {
+  display: flex;
+}
+.ChatTitleContainer .addChatsPd {
+  width: 50px;
+  height: 50px;
+  margin: 22px 10px 10px 10px;
+  display: block;
+}
+.ChatTitleContainer .addChatsPd:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=ChatPdPage.css.map */

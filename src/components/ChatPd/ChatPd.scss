@@ -1,0 +1,26 @@
+.mainChatPd {
+  border: 1px solid black;
+  width: 18%;
+  margin: 10px 10px 10px 40px;
+  padding: 20px;
+  display: block;
+  box-sizing: content-box;
+  background: #FF6B6B;
+  border-radius: 10px;
+
+
+  &:hover {
+    cursor: pointer;
+  }
+  h1{
+
+    color: white;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+
+.copy {
+  background: red;
+}

@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+.activeAddPd {
+  background: white;
+  width: 100%;
+  height: 2000px;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nonActive {
+  display: none;
+}
+
+form {
+  width: 100%;
+  .inTitle{
+    width: 20%;
+    display: block;
+    margin: 100px auto 10px auto;
+    height: 50px;
+    font-family: Roboto;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    background: #FFE66D;
+  }
+  .textEng{
+    width: 30%;
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: Roboto;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  .textUA{
+    width: 30%;
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: Roboto;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  button {
+    width: 10%;
+  }
+  .imgChatAdd{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 10px auto 0 auto;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}

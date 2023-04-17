@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+}
+
+a {
+  width: 100px;
+  height: 100px;
+}
+
+.properties {
+  display: flex;
+  justify-content: center;
+  width: content-box;
+  margin: auto;
+  height: content-box;
+  font-size: 30px;
+}
+.properties .predefined {
+  margin: 20px;
+}
+.properties .procedures {
+  margin: 20px;
+}
+
+.chatImg {
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+}
+
+.ticketImg {
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+}
+
+.procedureImg {
+  width: 80px;
+  height: 80px;
+}
+
+/*# sourceMappingURL=Header.css.map */
